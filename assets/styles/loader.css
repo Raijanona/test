@@ -1,0 +1,23 @@
+.loader {
+    width: 100vw;
+    border-radius: 10px;
+    height: 25px;
+    border: 1px solid green;
+    overflow: hidden;
+    margin: 20px;
+}
+
+.loader__progress-bar {
+    background-color: green;
+    height: 100%;
+    animation: progressBar 5s ease;
+}
+
+@keyframes progressBar {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 100%;
+    }
+}
